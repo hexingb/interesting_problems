@@ -1,0 +1,26 @@
+#+TITLE: 一个小任务说明
+#+DATE: <2019-07-17 Wed>
+#+AUTHOR: Bao Hexing
+#+EMAIL: HexingB@qq.com
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:{} arch:headline
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:t html-preamble:t
+#+OPTIONS: html-scripts:t html-style:t html5-fancy:nil tex:t
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_CONTAINER: div
+#+DESCRIPTION:
+#+KEYWORDS:
+#+HTML_LINK_HOME:
+#+HTML_LINK_UP:
+#+HTML_MATHJAX:
+#+HTML_HEAD: <link rel="stylesheet" href="/css/style.css" type="text/css"/>
+#+HTML_HEAD_EXTRA:
+#+SUBTITLE:
+#+INFOJS_OPT:
+#+CREATOR: <a href="https://www.gnu.org/software/emacs/">Emacs</a> 26.1 (<a href="https://orgmode.org">Org</a> mode 9.1.9)
+#+LATEX_HEADER:
+
+
+被分配了一个小任务，见 [[drawing_program.txt]] 。大概看了一下，觉得不算难。不过实现的时候，还是有一些东西觉得处理得不太好，忽略掉一些细节的东西，抓时间做出来了。觉得不好的地方，暂时写在注释里了。
+
+还没有充分测试（我觉得输入的边界检查，比如负数，肯定是有问题的），只按照任务里的示例简单测了一下。暂时先这样吧。
+
