@@ -1,0 +1,5 @@
+A problem from Tencent:
+
+Suppose you have a singly linked list, reverse the sequence of every k nodes.
+
+e.g. 1 -> 2 -> 3 -> 4 -> 5 would be converted into 2 -> 1 -> 4 -> 3 -> 5, if it is reversed by every 2 nodes.

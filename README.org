@@ -1,4 +1,4 @@
-#+TITLE: 一个小任务说明
+#+TITLE: some interesting problems and their solutions
 #+DATE: <2019-07-17 Wed>
 #+AUTHOR: Bao Hexing
 #+EMAIL: HexingB@qq.com
@@ -19,8 +19,10 @@
 #+CREATOR: <a href="https://www.gnu.org/software/emacs/">Emacs</a> 26.1 (<a href="https://orgmode.org">Org</a> mode 9.1.9)
 #+LATEX_HEADER:
 
+I was assigned [[drawing/drawing_program.txt][an interesting problem]] when I had an interview. I made it with a rough(more or less) implementation.
 
-被分配了一个小任务，见 [[drawing_program.txt]] 。大概看了一下，觉得不算难。不过实现的时候，还是有一些东西觉得处理得不太好，忽略掉一些细节的东西，抓时间做出来了。觉得不好的地方，暂时写在注释里了。
+Then I decided to write down more fun problems like these, hoping they bring you and me some delight.
 
-还没有充分测试（我觉得输入的边界检查，比如负数，肯定是有问题的），只按照任务里的示例简单测了一下。暂时先这样吧。
++ [[drawing/drawing_program.txt][draw and fill some shapes on console]]
++ [[reversek/reverse_k_nodes.txt][reverse k nodes in a singly linked list]]
 
