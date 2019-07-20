@@ -1,8 +1,7 @@
 /**
  * LineCommand.java - draw a line on canvas
  *
- * Author: Bao Hexing <HexingB@qq.com>
- * Created: 17 July 2019
+ * Author: Bao Hexing <HexingB@qq.com> Created: 17 July 2019
  *
  * Copyright © 2019, Bao Hexing. All Rights Reserved.
  */
@@ -25,15 +24,14 @@ public class LineCommand implements Command {
     }
 
     public Canvas draw(Canvas canvas) {
-        if (canvas.contains(x1, y1) == false ||
-            canvas.contains(x2, y2) == false) {
+        if (canvas.contains(x1, y1) == false || canvas.contains(x2, y2) == false) {
             throw new IllegalArgumentException("invalid position");
         }
 
         if (x1 == x2) { // a vertical line
             int start = Math.min(y1, y2);
             int end = Math.max(y1, y2);
-                
+
             for (int h = start; h <= end; ++h) {
                 canvas.setPixel(x1, h, 'x');
             }

@@ -1,8 +1,7 @@
 /**
  * Draw.java - Drawing problem
  *
- * Author: Bao Hexing <HexingB@qq.com>
- * Created: 16 July 2019
+ * Author: Bao Hexing <HexingB@qq.com> Created: 16 July 2019
  *
  * Copyright © 2019, Bao Hexing. All Rights Reserved.
  */
@@ -11,7 +10,6 @@ package com.hexingb.tasks;
 
 import com.hexingb.tasks.command.Command;
 import com.hexingb.tasks.command.CommandFactory;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
@@ -22,10 +20,10 @@ public class DrawTool {
         try {
             reader = new BufferedReader(new InputStreamReader(System.in));
         } catch (Exception e) {
-	    e.printStackTrace();
-	    System.exit(0);
+            e.printStackTrace();
+            System.exit(0);
         }
-        
+
         while (true) {
             try {
                 String input = reader.readLine();

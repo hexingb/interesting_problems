@@ -1,8 +1,7 @@
 /**
  * CreateCommand.java - Crate a canvas
  *
- * Author: Bao Hexing <HexingB@qq.com>
- * Created: 17 July 2019
+ * Author: Bao Hexing <HexingB@qq.com> Created: 17 July 2019
  *
  * Copyright © 2019, Bao Hexing. All Rights Reserved.
  */
@@ -19,7 +18,7 @@ class CreateCommand implements Command {
         this.width = Integer.parseInt(args[1]);
         this.height = Integer.parseInt(args[2]);
     }
-    
+
     public Canvas draw(Canvas canvas) {
         return new Canvas(this.width, this.height);
     }

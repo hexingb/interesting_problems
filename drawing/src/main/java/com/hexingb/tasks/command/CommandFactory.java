@@ -1,8 +1,7 @@
 /**
  * CommandFactory.java - command factory
  *
- * Author: Bao Hexing <HexingB@qq.com>
- * Created: 17 July 2019
+ * Author: Bao Hexing <HexingB@qq.com> Created: 17 July 2019
  *
  * Copyright © 2019, Bao Hexing. All Rights Reserved.
  */
@@ -23,8 +22,8 @@ public class CommandFactory {
     }
 
     public static Command getCommand(String input) {
-	String cmdToken[] = input.trim().split(" ");
-	return getCommand(cmdToken);
+        String cmdToken[] = input.trim().split(" ");
+        return getCommand(cmdToken);
     }
 
     public static Command getCommand(String[] args) {
@@ -33,7 +32,7 @@ public class CommandFactory {
             throw new IllegalArgumentException("invalid command");
         }
         command.updateArgs(args);
-	return command;
+        return command;
     }
 }
 

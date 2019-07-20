@@ -1,8 +1,7 @@
 /**
  * Command.java - Command
  *
- * Author: Bao Hexing <HexingB@qq.com>
- * Created: 17 July 2019
+ * Author: Bao Hexing <HexingB@qq.com> Created: 17 July 2019
  *
  * Copyright © 2019, Bao Hexing. All Rights Reserved.
  */
