@@ -38,7 +38,7 @@ public class Canvas {
     public void setPixel(int x, int y, char c) {
         int pos = y * width + x;
         pixels[pos] = c;
-        display();
+        // display();
     }
 
     public boolean isBoundary(int x, int y) {

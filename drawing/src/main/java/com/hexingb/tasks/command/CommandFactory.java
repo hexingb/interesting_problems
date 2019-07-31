@@ -22,12 +22,12 @@ public class CommandFactory {
     }
 
     public static Command getCommand(String input) {
-        String cmdToken[] = input.trim().split(" ");
+        String cmdToken[] = input.trim().split("\\s+");
         return getCommand(cmdToken);
     }
 
     public static Command getCommand(String[] args) {
-        Command command = commands.get(args[0]);
+        Command command = commands.get(args[0].trim());
         if (command == null) {
             throw new IllegalArgumentException("invalid command");
         }
